@@ -32,10 +32,12 @@ public class KdniaoTrackQueryAPI {
 		}
 	}
 	
-	//电商ID
-	private String EBusinessID="1644476";
+	//电商ID 请使用自己申请的ID  地址: http://kdniao.com/
+//	private String EBusinessID="1644476";
+	private String EBusinessID="you id";
 	//电商加密私钥，快递鸟提供，注意保管，不要泄漏
-	private String AppKey="c529a42d-be31-4ed5-9c9d-7241826ddb17";
+//	private String AppKey="c529a42d-be31-4ed5-9c9d-7241826ddb17";
+	private String AppKey="you key";
 	//请求url
 	private String ReqURL="http://api.kdniao.com/Ebusiness/EbusinessOrderHandle.aspx";	
  
